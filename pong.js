@@ -237,16 +237,16 @@ function playHitNote() {
 
 function playStartUp() {
     MIDI.setVolume(0, 127);
-    MIDI.chordOn(0, [59, 63, 66], 127, 0.1);
-    MIDI.chordOff(0, [59, 63, 66], 0.7);
-    MIDI.chordOn(0, [55, 59, 62], 127, 0.8);
-    MIDI.chordOff(0, [55, 59, 62], 1.2);
-    MIDI.chordOn(0, [63, 67, 70], 127, 1.2);
-    MIDI.chordOff(0, [63, 67, 70], 1.6);
-    MIDI.chordOn(0, [61, 65, 68], 127, 1.6);
-    MIDI.chordOff(0, [61, 65, 68], 2);
-    MIDI.chordOn(0, [68, 73, 77], 127, 2);
-    MIDI.chordOff(0, [68, 73, 77], 2.4);
+    MIDI.chordOn(0, [59, 63, 66], 127, 0.8);
+    MIDI.chordOff(0, [59, 63, 66], 1.2);
+    MIDI.chordOn(0, [55, 59, 62], 127, 1.2);
+    MIDI.chordOff(0, [55, 59, 62], 1.6);
+    MIDI.chordOn(0, [63, 67, 70], 127, 1.6);
+    MIDI.chordOff(0, [63, 67, 70], 2);
+    MIDI.chordOn(0, [61, 65, 68], 127, 2);
+    MIDI.chordOff(0, [61, 65, 68], 2.4);
+    MIDI.chordOn(0, [68, 73, 77], 127, 2.4);
+    MIDI.chordOff(0, [68, 73, 77], 2.8);
 }
 
 function playVictory() {
