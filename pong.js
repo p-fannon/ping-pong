@@ -210,7 +210,7 @@ window.onload = function () {
     MIDI.loadPlugin({
         instrument: "acoustic-grand-piano",
         onsuccess: function() {
-            playStartUp();
+            // playStartUp();
         }
     });
 }
@@ -235,6 +235,7 @@ function playHitNote() {
 	MIDI.noteOff(0, note, delay + 0.25);
 }
 
+/*
 function playStartUp() {
     MIDI.setVolume(0, 127);
     MIDI.chordOn(0, [59, 63, 66], 127, 0.8);
@@ -248,6 +249,7 @@ function playStartUp() {
     MIDI.chordOn(0, [68, 73, 77], 127, 2.4);
     MIDI.chordOff(0, [68, 73, 77], 2.8);
 }
+*/
 
 function playVictory() {
     MIDI.setVolume(0, 127);
